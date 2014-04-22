@@ -11,6 +11,7 @@ public:
     PlayListItem(const PlayListItem &item);
 
     PlayListItem(FileInfo *info);
+    ~PlayListItem();
 };
 
 #endif // PLAYLISTITEM_H
