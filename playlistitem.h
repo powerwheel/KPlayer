@@ -12,6 +12,9 @@ public:
 
     PlayListItem(FileInfo *info);
     ~PlayListItem();
+
+
+
 };
 
 #endif // PLAYLISTITEM_H
