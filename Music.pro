@@ -15,11 +15,13 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     fileinfo.cpp \
-    playlistitem.cpp
+    playlistitem.cpp \
+    playlistmodel.cpp
 
 HEADERS  += mainwindow.h \
     KPlayer.h \
     fileinfo.h \
-    playlistitem.h
+    playlistitem.h \
+    playlistmodel.h
 
 FORMS    += mainwindow.ui
