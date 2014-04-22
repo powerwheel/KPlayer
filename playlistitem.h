@@ -3,7 +3,7 @@
 #include <QMap>
 #include "KPlayer.h"
 #include "fileinfo.h"
-class PlayListItem
+class PlayListItem: public QMap<KPlayer::MetaData,QString>
 {
 public:
     PlayListItem();
