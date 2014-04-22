@@ -7,6 +7,8 @@ class PlayListItem: public QMap<KPlayer::MetaData,QString>
 {
 public:
     PlayListItem();
+
+    PlayListItem(const PlayListItem &item);
 };
 
 #endif // PLAYLISTITEM_H
